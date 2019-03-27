@@ -11,7 +11,7 @@ set(HELIB_DIR /usr/local/src/HElib/src)
 include_directories(${PROJECT_SOURCE_DIR}/opsica ${PROJECT_SOURCE_DIR}/stdsc ${HELIB_DIR})
 link_directories(${HELIB_DIR})
 
-set(COMMON_LIBS opsica_share stdsc fhe ntl gmp)
+set(COMMON_LIBS opsica_share stdsc helib ntl gmp)
 
 add_subdirectory(stdsc)
 add_subdirectory(opsica)
