@@ -1,0 +1,4 @@
+add_subdirectory(opsica_cloud)
+add_subdirectory(opsica_dataowner)
+add_subdirectory(opsica_querier)
+add_subdirectory(opsica_share)

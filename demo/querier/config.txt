@@ -1,0 +1,4 @@
+nthreads = 2
+fpmax    = 0.001
+fheM     = 30269
+fheL     = 34

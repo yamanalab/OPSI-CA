@@ -1,0 +1,5 @@
+include_directories(${PROJECT_SOURCE_DIR}/demo)
+add_subdirectory(cloud)
+add_subdirectory(querier)
+add_subdirectory(dataownerA)
+add_subdirectory(dataownerB)
