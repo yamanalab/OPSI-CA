@@ -23,9 +23,8 @@
 #include <opsica_share/opsica_utility.hpp>
 #include <opsica_share/opsica_bloomfilter_utility.hpp>
 #include <opsica_share/opsica_bloomfilter_data_header.hpp>
-
-#include "FHE.h"
-#include "EncryptedArray.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 
 /*define ENABLE_PARALLEL*/
 
@@ -91,7 +90,7 @@ static void generate_encfile(const int index, const std::string& dir,
     STDSC_LOG_TRACE("Generate encrypt file. (%s)", re_uploadFDir.c_str());
     std::ofstream uploadFile(re_uploadFDir,
                              std::fstream::trunc | std::fstream::binary);
-    assert(uploadFile.is_open());
+    STDSC_THROW_FILE_IF_CHECK(uploadFile.is_open(), "Err: Cannot open encrypt file.");
 
     BloomFilterDataHeader header;
     std::memset(reinterpret_cast<void*>(&header), sizeof(BloomFilterDataHeader),

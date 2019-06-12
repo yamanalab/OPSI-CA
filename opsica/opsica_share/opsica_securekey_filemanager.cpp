@@ -21,8 +21,8 @@
 #include <opsica_share/opsica_utility.hpp>
 #include <opsica_share/opsica_securekey_filemanager.hpp>
 #include <opsica_share/opsica_define.hpp>
-#include "FHE.h"
-#include "EncryptedArray.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 
 namespace opsica_share
 {

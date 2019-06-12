@@ -18,8 +18,8 @@
 #include <future>
 #include <algorithm>
 
-#include "FHE.h"
-#include "EncryptedArray.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 
 #include <stdsc/stdsc_log.hpp>
 #include <opsica_share/opsica_define.hpp>
