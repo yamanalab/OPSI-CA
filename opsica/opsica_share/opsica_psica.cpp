@@ -24,8 +24,8 @@
 #include <algorithm>
 #include <sstream>
 
-#include "FHE.h"
-#include "EncryptedArray.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 
 #include <stdsc/stdsc_exception.hpp>
 #include <stdsc/stdsc_log.hpp>

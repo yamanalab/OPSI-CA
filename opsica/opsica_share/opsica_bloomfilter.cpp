@@ -18,9 +18,9 @@
 #include <iostream>
 #include <cmath>
 #include <string>
-#include "FHE.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 #include "opsica_bloomfilter.hpp"
-#include "EncryptedArray.h"
 #include "MurmurHash3.h"
 
 namespace opsica_share

@@ -19,8 +19,8 @@
 #include <vector>
 #include <iostream>
 
-#include "FHE.h"
-#include "EncryptedArray.h"
+#include <helib/FHE.h>
+#include <helib/EncryptedArray.h>
 
 #include <opsica_share/opsica_function.hpp>
 
